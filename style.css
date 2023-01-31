@@ -1,0 +1,17 @@
+#calculate {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+#assist-calculate {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+
+#rebound-calculate {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
