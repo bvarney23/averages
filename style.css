@@ -1,3 +1,7 @@
+#stats {
+    display: flex;
+}
+
 #calculate {
     display: flex;
     flex-direction: column;

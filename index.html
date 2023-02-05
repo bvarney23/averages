@@ -12,47 +12,58 @@
     <!-- <script src="interface.js" defer></script> -->
 </head>
 <body>
-    <div id="calculate">Points
-        <input type="number" id="game-one" value=""/>
-        <input type="number" id="game-two" value=""/>
-        <input type="number" id="game-three" value=""/>
-        <input type="number" id="game-four" value=""/>
-        <input type="number" id="game-five" value=""/>
-        <input type="number" id="game-six" value=""/>
-        <input type="number" id="game-seven" value=""/>
-        <input type="number" id="game-eight" value=""/>
-        <input type="number" id="game-nine" value=""/>
-        <input type="number" id="game-ten" value=""/>
-        <button id="pts-submit-btn" type="submit">Submit</button>
-        <div id="points"></div>
-    </div>
-    <div id="assist-calculate">Assist
-        <input type="number" id="assist-one" value="" />
-        <input type="number" id="assist-two" value="" />
-        <input type="number" id="assist-three" value="" />
-        <input type="number" id="assist-four" value="" />
-        <input type="number" id="assist-five" value="" />
-        <input type="number" id="assist-six" value="" />
-        <input type="number" id="assist-seven" value="" />
-        <input type="number" id="assist-eight" value="" />
-        <input type="number" id="assist-nine" value="" />
-        <input type="number" id="assist-ten" value="" />
-        <button id="ast-submit-btn" type="submit">Submit</button>
-        <div id="assists"></div>
-    </div>
-    <div id="rebound-calculate">Rebound
-        <input type="number" id="rebound-one" value="" />
-        <input type="number" id="rebound-two" value="" />
-        <input type="number" id="rebound-three" value="" />
-        <input type="number" id="rebound-four" value="" />
-        <input type="number" id="rebound-five" value="" />
-        <input type="number" id="rebound-six" value="" />
-        <input type="number" id="rebound-seven" value="" />
-        <input type="number" id="rebound-eight" value="" />
-        <input type="number" id="rebound-nine" value="" />
-        <input type="number" id="rebound-ten" value="" />
-        <button id="reb-submit-btn" type="submit">Submit</button>
-        <div id="rebounds"></div>
+    <div id="stats">
+        <div id="calculate">Points
+            <input type="number" id="prop-points" value="" placeholder="Points Prop">
+            <input type="number" id="game-one" value="" placeholder="Game One"/>
+            <input type="number" id="game-two" value="" placeholder="Game Two"/>
+            <input type="number" id="game-three" value="" placeholder="Game Three"/>
+            <input type="number" id="game-four" value="" placeholder="Game Four"/>
+            <input type="number" id="game-five" value="" placeholder="Game Five"/>
+            <input type="number" id="game-six" value="" placeholder="Game Six"/>
+            <input type="number" id="game-seven" value="" placeholder="Game Seven"/>
+            <input type="number" id="game-eight" value="" placeholder="Game Eight"/>
+            <input type="number" id="game-nine" value="" placeholder="Game Nine"/>
+            <input type="number" id="game-ten" value="" placeholder="Game Ten"/>
+            <button id="pts-submit-btn" type="submit">Submit</button>
+            <div id="points"></div>
+            <div id="point-props"></div>
+            <div id="count"></div>
+        </div>
+        <div id="assist-calculate">Assist
+            <input type="number" id="prop-assists" value="" placeholder="Assist Prop">
+            <input type="number" id="assist-one" value="" placeholder="Game One" />
+            <input type="number" id="assist-two" value="" placeholder="Game Two" />
+            <input type="number" id="assist-three" value="" placeholder="Game Three"/>
+            <input type="number" id="assist-four" value="" placeholder="Game Four" />
+            <input type="number" id="assist-five" value="" placeholder="Game Five" />
+            <input type="number" id="assist-six" value="" placeholder="Game Six"/>
+            <input type="number" id="assist-seven" value="" placeholder="Game Seven"/>
+            <input type="number" id="assist-eight" value="" placeholder="Game Eight"/>
+            <input type="number" id="assist-nine" value="" placeholder="Game Nine"/>
+            <input type="number" id="assist-ten" value="" placeholder="Game Ten"/>
+            <button id="ast-submit-btn" type="submit">Submit</button>
+            <div id="assists"></div>
+            <div id="assists-props"></div>
+            <div id="assists-count"></div>
+        </div>
+        <div id="rebound-calculate">Rebound
+            <input type="number" id="prop-rebounds" value="" placeholder="Rebound Prop">
+            <input type="number" id="rebound-one" value="" placeholder="Game One"/>
+            <input type="number" id="rebound-two" value="" placeholder="Game Two"/>
+            <input type="number" id="rebound-three" value="" placeholder="Game Three"/>
+            <input type="number" id="rebound-four" value="" placeholder="Game Four"/>
+            <input type="number" id="rebound-five" value="" placeholder="Game Five"/>
+            <input type="number" id="rebound-six" value="" placeholder="Game Six"/>
+            <input type="number" id="rebound-seven" value="" placeholder="Game Seven"/>
+            <input type="number" id="rebound-eight" value="" placeholder="Game Eight"/>
+            <input type="number" id="rebound-nine" value="" placeholder="Game Nine"/>
+            <input type="number" id="rebound-ten" value="" placeholder="Game Ten"/>
+            <button id="reb-submit-btn" type="submit">Submit</button>
+            <div id="rebounds"></div>
+            <div id="rebounds-props"></div>
+            <div id="rebound-count"></div>
+        </div>
     </div>
 </body>
 </html>
